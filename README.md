@@ -1,2 +1,2 @@
 # ustepper
-ansynchonious driver of stepper motor via step/dir driver
+micropython asynchornious driver of stepper motor via step/dir driver
