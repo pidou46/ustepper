@@ -2,12 +2,15 @@
 micropython asynchronious driver for stepper motor via step/dir driver
 
 This code is splitted in to steps:
+
 1/ schedule a mouvement given a steps quantity, speed set point in Hz (steps/s) and acceleration steps/second square
+
 2/ run the scheduled mouvement
 
-1/ TODO
+Scheduling: TODO
 
-2/ The step pin of the driver is feeded at constant speed using the mcu's hardware PWM.
+Running:
+  The step pin of the driver is feeded at constant speed using the mcu's hardware PWM.
 A Timer is used to stop the movement at the theorical position based on time spent.
 The experiments I have made prouve that delay of the Timer is quite small and consitant at 1_ms, so it can be compensate.
 
