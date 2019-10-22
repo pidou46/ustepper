@@ -22,7 +22,7 @@ Optionaly, the microsteping capacity of the driver is used to implement:
 
 Testing:
 testing is made with:
-- esp32 (should work with esp8266)
+- esp32 and esp8266
 - micropython firmware (official)
 - drv8825 driver (should also work with other step/dir drivers like A4988)
 - 2 x phases stepper motor
