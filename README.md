@@ -13,7 +13,7 @@ Running:
 
   The step pin of the driver is feeded at constant speed using the mcu's hardware PWM.
 A Timer is used to stop the movement at the theorical position based on time spent.
-The experiments I have made prouve that delay of the Timer is quite small and consitant at 1_ms, so it can be compensate.
+The experiments I have made prouve that delay of the Timer is quite small and consitant at 1_ms, so it can be compensated.
 
 Optionaly, the microsteping capacity of the driver is used to implement:
 - speed ramp up (acceleration)
