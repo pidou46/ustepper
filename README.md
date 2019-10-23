@@ -10,7 +10,7 @@ This code is splitted in to steps:
 Scheduling: TODO
 
 
-![alt text](MvtProfile.png)
+![Mouvemet profile 01](MvtProfile_01.png)
 
 
 
