@@ -7,14 +7,14 @@ This code is splitted in to steps:
 
 2/ run the scheduled mouvement
 
-Scheduling: TODO
+## Scheduling: TODO
 
 
 ![Mouvemet profile 01](MvtProfile_01.png)
 
 
 
-Running:
+## Running:
 
   The step pin of the driver is feeded at constant speed using the mcu's hardware PWM.
 A Timer is used to stop the movement at the theorical position based on time spent.
