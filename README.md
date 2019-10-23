@@ -16,7 +16,8 @@ Here it is a graphic plot of a very short mouvement time table:
 
 ![Mouvemet profile 01](MvtProfile_01.png)
 
-
+The acceleration parameter is not a real angular acceleration expressed in rad/s^2.
+It's aquind of progressive change in speed rate.
 
 ## Running:
 
