@@ -9,6 +9,11 @@ This code is splitted in to steps:
 
 Scheduling: TODO
 
+
+![alt text](MvtProfile.png)
+
+
+
 Running:
 
   The step pin of the driver is feeded at constant speed using the mcu's hardware PWM.
