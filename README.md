@@ -23,7 +23,7 @@ Optionaly, the microsteping capacity of the driver is used to implement:
 
 Testing:
 testing is made with:
-- esp32 and esp8266
+- esp32 and esp8266, should work also with stm32 since (https://github.com/micropython/micropython/pull/5254)
 - micropython firmware (official)
 - drv8825 driver (should also work with other step/dir drivers like A4988)
 - 2 x phases (four wires) stepper motor
