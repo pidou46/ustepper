@@ -11,7 +11,7 @@ This code is splitted in to steps:
 
 The aim of this step is to compute a time table of the mouvement, this time table will be used later by Running function to actualy make the motor mouvement.
 
-A graphic chart of this time table would look like this:
+Here it is a graphic plot of a very short mouvement time table:
 
 
 ![Mouvemet profile 01](MvtProfile_01.png)
