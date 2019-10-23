@@ -7,7 +7,11 @@ This code is splitted in to steps:
 
 2/ run the scheduled mouvement
 
-## Scheduling: TODO
+## Scheduling:
+
+The aim of this step is to compute a time table of the mouvement, this time table will be used later by Running function to actualy make the motor mouvement.
+
+A graphic chart of this time table would look like this:
 
 
 ![Mouvemet profile 01](MvtProfile_01.png)
