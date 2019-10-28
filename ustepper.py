@@ -8,7 +8,7 @@ class Stepper:
         self.stepPin=PWM(stepPin, freq=0, duty=0)
         self.msPin=msPin #microstep pin M0
         #M0,M1,M2,ms
-        self.timeTable=[(1,0,0,1999),(0,0,0,19999),(1,0,0,1999)]
+        self.timeTable=[(1,0,0,2000),(0,0,0,20000),(1,0,0,2000)]
         self.tim=Timer(-1)
         self.freq=1000
         self.index=0
