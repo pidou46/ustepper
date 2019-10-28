@@ -10,7 +10,7 @@ class Stepper:
         #M0,M1,M2,ms
         self.timeTable=[(1,0,0,2000),(0,0,0,20000),(1,0,0,2000)]
         self.tim=Timer(-1)
-        self.freq=1000
+        self.freq.value(1000)
         self.index=0
 
     #travel (in steps), speed (in steps / seconds)
