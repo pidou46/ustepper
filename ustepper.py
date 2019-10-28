@@ -28,7 +28,7 @@ class Stepper:
         self.stepPin.duty(32)
         try:
             print(time.ticks_us())
-            self.msPin=self.timeTable[self.index][0]
+            self.msPin.value(self.timeTable[self.index][0])
             self.tim.init(period=(self.timeTable[self.index][3])-1, mode=Timer.ONE_SHOT, callback=self.Run)
             self.index+=1
         except:
