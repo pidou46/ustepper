@@ -10,7 +10,7 @@ class Stepper:
         #M0,M1,M2,ms
         self.timeTable=[(1,0,0,2000),(0,0,0,20000),(1,0,0,2000)]
         self.tim=Timer(-1)
-        self.freq.value(1000)
+        self.stepPin.freq(1000)
         self.index=0
 
     #travel (in steps), speed (in steps / seconds)
@@ -35,6 +35,7 @@ class Stepper:
             self.stepPin.duty(0)
 
 if __name__ == '__main__':
+    #dirPin, stepPin, msPin
     test=Stepper(Pin(0, Pin.OUT),Pin(2),Pin(3))
     test.Run(0)
     while True:
