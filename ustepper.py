@@ -27,7 +27,7 @@ class Stepper:
     def Run(self, t):
         self.stepPin.duty(32)
         try:
-            print(time.ticks_ms())
+            print(time.ticks_us())
             self.msPin=self.timeTable[self.index][0]
             self.tim.init(period=(self.timeTable[self.index][3])-1, mode=Timer.ONE_SHOT, callback=self.Run)
             self.index+=1
