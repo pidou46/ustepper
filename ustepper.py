@@ -36,7 +36,7 @@ class Stepper:
 
 if __name__ == '__main__':
     #dirPin, stepPin, msPin
-    test=Stepper(Pin(0, Pin.OUT),Pin(2),Pin(3))
+    test=Stepper(Pin(2, Pin.OUT),Pin(5),Pin(15, Pin.OUT))
     test.Run(0)
     while True:
         print('meanwhile...')
